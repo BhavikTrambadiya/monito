@@ -37,4 +37,8 @@ package-lock.json
 
 
 # jetbrains
+<<<<<<< HEAD
 /.idea/
+=======
+/.idea/
+>>>>>>> f9bf18c3fcf284e3f15cef8f9a59bf4b4b94cd41
