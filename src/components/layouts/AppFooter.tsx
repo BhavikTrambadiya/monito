@@ -9,26 +9,26 @@ export default function AppFooter() {
         <footer
             className="rounded-tr-[40px] pt-20 rounded-tl-[40px] bg-gradient-to-br from-75% from-papaya-whip to-peach">
             <div className="max-w-7xl mx-auto px-2 2xl:px-0">
-                <div className="rounded-lg w-full bg-dark-blue p-8 grid grid-cols-12 gap-5">
+                <div className="rounded-2xl w-full bg-dark-blue p-8 grid grid-cols-4 md:grid-cols-12 gap-5">
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     <h5 className="text-white font-bold text-2xl col-span-4 capitalize">Register now so you don't miss
                         our programs</h5>
-                    <div className="bg-white rounded-[14px] flex justify-between items-center p-3 space-x-3 col-span-8">
+                    <div className="bg-white rounded-[14px] flex justify-between items-center p-3 gap-3 col-span-8 flex-col lg:flex-row">
                         <InputField className="rounded-lg border border-manatee outline-none px-7 py-3 w-full"
                                     type="email"
                                     placeholder="Enter your Email"/>
-                        <PrimaryButton type="button" className="px-8 rounded-lg flex-shrink-0">Subscribe
+                        <PrimaryButton type="button" className="px-8 rounded-lg w-full lg:w-auto justify-center flex-shrink-0">Subscribe
                             Now</PrimaryButton>
                     </div>
                 </div>
-                <div className="flex justify-between items-center w-full border-b border-american-silver">
+                <div className="flex justify-between items-center w-full border-b border-american-silver flex-col md:flex-row gap-y-5 py-10">
                     <div className="flex justify-between items-center space-x-5">
                         <Link href={"#"} className="">Home</Link>
                         <Link href={"#"} className="">Category</Link>
                         <Link href={"#"} className="">About</Link>
                         <Link href={"#"} className="">Contact</Link>
                     </div>
-                    <div className="flex justify-between items-center space-x-5 py-10">
+                    <div className="flex justify-between items-center space-x-5">
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 512 512">
                                 <path
@@ -62,10 +62,10 @@ export default function AppFooter() {
                         </a>
                     </div>
                 </div>
-                <div className="flex justify-between items-center py-10 text-nickel">
-                    <p>© 2022 Monito. All rights reserved.</p>
-                    <Image src={"/monito_logo.svg"} alt={"Monito"} height={"40"} width={"115"} className={""}/>
-                    <div className="space-x-5">
+                <div className="flex justify-between items-center pb-5 pt-12 text-nickel flex-col md:flex-row">
+                    <p className={"order-3 md:order-1 mt-2 sm:mt-0"}>© 2022 Monito. All rights reserved.</p>
+                    <Image src={"/monito_logo.svg"} alt={"Monito"} height={"40"} width={"115"} className={"order-1 md:order-2"}/>
+                    <div className="space-x-5 order-2 md:order-2 mt-8 md:mt-0">
                         <a href="#">Terms of Services</a>
                         <a href="#">Privacy Policy</a>
                     </div>

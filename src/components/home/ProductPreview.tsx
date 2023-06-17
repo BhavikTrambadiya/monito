@@ -8,12 +8,16 @@ export default function ProductPreview({}) {
                    src="https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
                    alt="Dog image"/>
             <h4 className={"font-bold text-rich-black pt-2"}>Plush Pet Toy</h4>
-            <p className="text-xs text-nickel space-x-2 flex justify-start items-center">
-                <span>Product:</span>
-                <span className="font-bold">Toy</span>
-                <span className="w-1 block h-1 bg-nickel rounded-full"></span>
-                <span>Size:</span>
-                <span className="font-bold">200 grams</span>
+            <p className="text-xs text-nickel gap-2 flex justify-start sm:items-center items-start flex-wrap flex-col sm:flex-row">
+                <span>
+                    <span>Product:</span>
+                    <span className="font-bold">Toy</span>
+                </span>
+                <span className="w-1 sm:block hidden h-1 bg-nickel rounded-full"></span>
+                <span>
+                    <span>Size:</span>
+                    <span className="font-bold">200 grams</span>
+                </span>
             </p>
             <h5 className={"font-bold text-rich-black text-sm"}>6.900.000 VND</h5>
             <div className={"flex justify-start items-center gap-x-2 py-2 px-2.5 bg-papaya-whip rounded-lg"}>
