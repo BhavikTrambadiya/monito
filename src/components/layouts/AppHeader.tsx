@@ -5,7 +5,7 @@ import PrimaryButton from "@/components/atoms/PrimaryButton";
 
 export default function AppHeader() {
     return (
-        <header className="max-w-7xl mx-auto flex justify-between items-center py-3 sm:py-[30px] px-2 2xl:px-0 flex-wrap">
+        <header className="max-w-7xl mx-auto flex-between-center py-3 sm:py-[30px] px-2 2xl:px-0 flex-wrap">
             <div className="flex sm:justify-start justify-between items-center gap-x-12 w-full lg:w-auto">
                 <button type="button" className={"block sm:hidden"}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24"

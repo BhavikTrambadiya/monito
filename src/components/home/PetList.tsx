@@ -4,7 +4,7 @@ import PetPreview from "@/components/home/PetPreview";
 export default function PetList({}) {
     return (
         <section className={"py-5 sm:py-[60px] w-full"}>
-            <div className={"flex justify-between items-end w-full flex-wrap gap-y-2"}>
+            <div className={"flex-between-end w-full flex-wrap gap-y-2"}>
                 <div>
                     <p className={"font-medium "}>Whats new?</p>
                     <h4 className={"font-bold text-2xl text-dark-blue"}>Take a look at some of our pets</h4>

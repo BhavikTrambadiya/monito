@@ -4,7 +4,7 @@ import BlogPreview from "@/components/home/BlogPreview";
 export default function BlogPreviewList({}) {
     return (
         <section className={"py-5 sm:py-[60px] w-full"}>
-            <div className={"flex justify-between items-end w-full"}>
+            <div className={"flex-between-end w-full"}>
                 <div>
                     <p className={"font-medium "}>You already know ?</p>
                     <h4 className={"font-bold text-2xl text-dark-blue"}>Useful pet knowledge</h4>
