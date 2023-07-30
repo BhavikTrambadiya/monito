@@ -19,7 +19,7 @@ export default function SellerIconList({}) {
                         </span>
                 </SecondaryButton>
             </div>
-            <div className={"flex justify-around items-center flex-wrap mt-7 gap-4 lg:gap-8"}>
+            <div className={"flex justify-around items-center flex-wrap mt-7 gap-4 lg:gap-y-8 lg:gap-x-4"}>
                 <Image src={"/sheba.png"} alt={"sheba"} width={150} height={112}/>
                 <Image src={"/whiskas.png"} alt={"whiskas"} width={150} height={112}/>
                 <Image src={"/bakers.png"} alt={"bakers"} width={150} height={112}/>

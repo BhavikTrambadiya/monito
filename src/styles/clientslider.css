@@ -1,0 +1,15 @@
+.client-images .splide__pagination__page {
+    width: 9px;
+    height: 9px;
+}
+.client-images .splide__pagination__page.is-active {
+    background-color: #003459;
+    width: 23px;
+    border-radius: 99px;
+    transition: linear;
+    transition-duration: 200ms;
+}
+
+.client-images .splide__pagination{
+    gap: 6px;
+}

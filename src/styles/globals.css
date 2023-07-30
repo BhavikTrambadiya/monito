@@ -26,4 +26,8 @@ body {
     .flex-start-end {
         @apply flex justify-start items-end;
     }
+
+    .flex-start-center{
+        @apply flex justify-start items-center;
+    }
 }

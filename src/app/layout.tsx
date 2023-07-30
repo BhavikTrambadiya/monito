@@ -1,4 +1,4 @@
-import './globals.css'
+import '../styles/globals.css'
 import {Inter} from 'next/font/google'
 import AppHeader from "@/components/layouts/AppHeader";
 import AppFooter from "@/components/layouts/AppFooter";
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <body className={inter.className}>
+        <body className={inter.className+" relative"}>
         <AppHeader/>
         {children}
         <AppFooter/>

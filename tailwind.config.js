@@ -7,6 +7,9 @@ module.exports = {
     ],
     theme: {
         extend: {
+            maxWidth: {
+                'e7xl': '1180px',
+            },
             colors: {
                 'dark-blue': '#003459',
                 "nickel": "#667479",
@@ -15,7 +18,9 @@ module.exports = {
                 "peach": "#FFE7BA",
                 "rich-black": "#00171F",
                 "manatee": "#99A2A5",
-                "vivid": "#00A7E7"
+                "vivid": "#00A7E7",
+                "oxford-blue": "#002A48",
+                "bright-gray": "#EBEEEF"
             },
             boxShadow: {
                 'main': '0 4px 28px -2px rgba(0, 0, 0, 0.08)',

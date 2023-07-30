@@ -5,10 +5,11 @@ import {Fragment, useState} from 'react'
 export default function SortFilterCategory({}) {
     const allFilter = ["Popular", "High to Low", "Low to High"];
     const [filter, setFilter] = useState("Popular");
+
     return (
         <Menu as="div" className="relative inline-block text-left">
             <Menu.Button
-                className="border rounded-full inline-flex items-center pl-4 pr-2.5 py-1 text-sm gap-2 text-nickel">
+                className="border rounded-full inline-flex items-center pl-4 pr-2.5 py-2.5 md:py-1 text-sm gap-2 text-nickel">
                 <span>Sort by: {filter}</span>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 stroke-nickel" fill="none"
                      viewBox="0 0 24 24"

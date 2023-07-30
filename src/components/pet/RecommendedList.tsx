@@ -1,7 +1,7 @@
 import SecondaryButton from "@/components/atoms/SecondaryButton";
 import PetPreview from "@/components/common/PetPreview";
 
-export default function PetList({}) {
+export default function RecommendedList({}) {
     return (
         <section className={"py-5 sm:py-[60px] w-full"}>
             <div className={"flex-between-end w-full flex-wrap gap-y-2"}>
@@ -21,10 +21,6 @@ export default function PetList({}) {
                 </SecondaryButton>
             </div>
             <div className={"grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-7 gap-3 sm:gap-5"}>
-                <PetPreview/>
-                <PetPreview/>
-                <PetPreview/>
-                <PetPreview/>
                 <PetPreview/>
                 <PetPreview/>
                 <PetPreview/>

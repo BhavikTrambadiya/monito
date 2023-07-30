@@ -1,5 +1,5 @@
 import SecondaryButton from "@/components/atoms/SecondaryButton";
-import ProductPreview from "@/components/home/ProductPreview";
+import ProductPreview from "@/components/common/ProductPreview";
 
 export default function ProductList({}) {
     return (
