@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Breadcrumb({links}: { links: { link: string, title: string }[] }) {
     return (
-        <div className={"flex-start-center -ml-2"}>
+        <div className={"flex-start-center -ml-2 my-0 md:my-2"}>
             {links.map(({link, title}: { link: string, title: string }, index: number) =>
                 (
                     <Link href={link} key={"breadcrumb-" + index}

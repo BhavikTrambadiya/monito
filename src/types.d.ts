@@ -1,0 +1,4 @@
+type MetaDataObject = {
+    title:string,
+
+}
