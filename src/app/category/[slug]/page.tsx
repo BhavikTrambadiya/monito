@@ -5,7 +5,7 @@ import FilterButton from "@/components/category/FilterButton";
 import Breadcrumb from "@/components/common/Breadcrumb";
 import MainCategoryBanner from "@/components/category/MainCategoryBanner";
 
-export default function Category({params: {slug}}) {
+export default function Category({params: {slug}}: { params: { slug: any } }) {
 
     const breadcrumbLinks: { link: string, title: string }[] = [
         {
