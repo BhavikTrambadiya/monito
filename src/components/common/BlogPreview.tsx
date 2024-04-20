@@ -1,4 +1,4 @@
-import PrimaryCard from "@/components/atoms/PrimaryCard";
+import PrimaryCard from "@/components/atoms/ui-elements/PrimaryCard";
 import Image from "next/image";
 
 export default function BlogPreview({}) {

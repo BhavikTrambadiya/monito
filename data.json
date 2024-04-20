@@ -1,0 +1,601 @@
+[
+  {
+    "sku": "#100079",
+    "gender": "male",
+    "dob": "05-22-2023",
+    "size": "medium",
+    "color": "black",
+    "vaccinated": true,
+    "dewormed": false,
+    "cert": true,
+    "cert_type": "CKC",
+    "microchip": true,
+    "location": "canada",
+    "publishedAt": "02-13-2024",
+    "additional_info": [
+      "Mix breed with Labrador and Poodle",
+      "Energetic and playful personality",
+      "Housetrained and good with children",
+      "Mother with excellent hunting skills"
+    ],
+    "health_guarantee": false,
+    "identification_guarantee": true,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100098",
+    "gender": "female",
+    "dob": "08-08-2022",
+    "size": "large",
+    "color": "gray",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": false,
+    "cert_type": "N/A",
+    "microchip": false,
+    "location": "usa",
+    "publishedAt": "01-25-2024",
+    "additional_info": [
+      "Purebred golden Retriever",
+      "Calm and gentle temperament",
+      "Good with other dogs and cats",
+      "Excellent family pet"
+    ],
+    "health_guarantee": true,
+    "identification_guarantee": false,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100093",
+    "gender": "female",
+    "dob": "12-12-2023",
+    "size": "small",
+    "color": "apporricot",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": true,
+    "cert_type": "MKA",
+    "microchip": true,
+    "location": "india",
+    "publishedAt": "12-01-2024",
+    "additional_info": [
+      "Pure breed Shih Tzu",
+      "Good body structure",
+      "With MKA cert and Microchip",
+      "Father from champion lineage"
+    ],
+    "health_guarantee": true,
+    "identification_guarantee": true,
+    "images": [
+      "https://images.unsplash.com/photo-1689267305146-155a1459752c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80",
+      "https://images.unsplash.com/photo-1689005047173-b43ff68072ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "https://images.unsplash.com/photo-1677080946126-99bbc7b19747?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+    ],
+    "customers": [
+      "https://images.unsplash.com/photo-1689830626827-75039b5ba3fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "https://images.unsplash.com/photo-1689913834525-d5796e2a050a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "https://images.unsplash.com/photo-1684620862250-287cb4543b46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "https://images.unsplash.com/photo-1689613188558-80e320f0aab9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+    ]
+  },
+  {
+    "sku": "#100095",
+    "gender": "female",
+    "dob": "08-08-2022",
+    "size": "large",
+    "color": "gray",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": false,
+    "cert_type": "N/A",
+    "microchip": false,
+    "location": "usa",
+    "publishedAt": "01-25-2024",
+    "additional_info": [
+      "Purebred golden Retriever",
+      "Calm and gentle temperament",
+      "Good with other dogs and cats",
+      "Excellent family pet"
+    ],
+    "health_guarantee": true,
+    "identification_guarantee": false
+  },
+  {
+    "sku": "#100096",
+    "gender": "female",
+    "dob": "12-12-2023",
+    "size": "small",
+    "color": "apporricot",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": true,
+    "cert_type": "MKA",
+    "microchip": true,
+    "location": "india",
+    "publishedAt": "12-01-2024",
+    "additional_info": [
+      "Pure breed Shih Tzu",
+      "Good body structure",
+      "With MKA cert and Microchip",
+      "Father from champion lineage"
+    ],
+    "health_guarantee": true,
+    "identification_guarantee": true,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100097",
+    "gender": "male",
+    "dob": "05-22-2023",
+    "size": "medium",
+    "color": "white",
+    "vaccinated": true,
+    "dewormed": false,
+    "cert": true,
+    "cert_type": "CKC",
+    "microchip": true,
+    "location": "canada",
+    "publishedAt": "02-13-2024",
+    "additional_info": [
+      "Mix breed with Labrador and Poodle",
+      "Energetic and playful personality",
+      "Housetrained and good with children",
+      "Mother with excellent hunting skills"
+    ],
+    "health_guarantee": false,
+    "identification_guarantee": true,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100080",
+    "gender": "female",
+    "dob": "08-08-2022",
+    "size": "large",
+    "color": "gray",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": false,
+    "cert_type": "N/A",
+    "microchip": false,
+    "location": "usa",
+    "publishedAt": "01-25-2024",
+    "additional_info": [
+      "Purebred golden Retriever",
+      "Calm and gentle temperament",
+      "Good with other dogs and cats",
+      "Excellent family pet"
+    ],
+    "health_guarantee": true,
+    "identification_guarantee": false,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100081",
+    "gender": "male",
+    "dob": "03-14-2023",
+    "size": "small",
+    "color": "brindle",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": false,
+    "cert_type": "N/A",
+    "microchip": true,
+    "location": "uk",
+    "publishedAt": "02-07-2024",
+    "additional_info": [
+      "Mix breed with Dachshund and Beagle",
+      "Affectionate and loyal personality",
+      "Good with other dogs and cats",
+      "Loves to play fetch"
+    ],
+    "health_guarantee": false,
+    "identification_guarantee": true,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100082",
+    "gender": "female",
+    "dob": "07-29-2021",
+    "size": "medium",
+    "color": "black",
+    "vaccinated": true,
+    "dewormed": false,
+    "cert": true,
+    "cert_type": "AKC",
+    "microchip": true,
+    "location": "australia",
+    "publishedAt": "01-19-2024",
+    "additional_info": [
+      "Purebred Rottweiler",
+      "Protective and intelligent",
+      "Requires experienced owner",
+      "Excellent guard dog"
+    ],
+    "health_guarantee": true,
+    "identification_guarantee": true,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100083",
+    "gender": "male",
+    "dob": "09-17-2022",
+    "size": "large",
+    "color": "brown",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": true,
+    "cert_type": "CKC",
+    "microchip": true,
+    "location": "france",
+    "publishedAt": "02-22-2024",
+    "additional_info": [
+      "Mix breed with Border Collie and Australian Shepherd",
+      "Energetic and intelligent",
+      "Needs plenty of exercise and mental stimulation",
+      "Excellent agility dog"
+    ],
+    "health_guarantee": false,
+    "identification_guarantee": true,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100084",
+    "gender": "female",
+    "dob": "01-25-2024",
+    "size": "small",
+    "color": "siamese",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": false,
+    "cert_type": "N/A",
+    "microchip": false,
+    "location": "germany",
+    "publishedAt": "02-20-2024",
+    "additional_info": [
+      "Purebred Siamese Cat",
+      "Affectionate and social",
+      "Vocal and demanding",
+      "Needs attention and playtime"
+    ],
+    "health_guarantee": true,
+    "identification_guarantee": false,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100085",
+    "gender": "male",
+    "dob": "04-01-2023",
+    "size": "medium",
+    "color": "black",
+    "vaccinated": true,
+    "dewormed": false,
+    "cert": true,
+    "cert_type": "TICA",
+    "microchip": true,
+    "location": "spain",
+    "publishedAt": "02-15-2024",
+    "additional_info": [
+      "Mix breed with Maine Coon and Persian",
+      "Fluffy and friendly",
+      "Gentle giants with playful personalities",
+      "Needs regular grooming"
+    ],
+    "health_guarantee": true,
+    "identification_guarantee": false,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100086",
+    "gender": "female",
+    "dob": "11-10-2022",
+    "size": "large",
+    "color": "Tortoiseshell",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": false,
+    "cert_type": "N/A",
+    "microchip": false,
+    "location": "italy",
+    "publishedAt": "02-10-2024",
+    "additional_info": [
+      "Mix breed with Calico and Domestic Shorthair",
+      "Independent and sassy",
+      "Loves to cuddle and play",
+      "Unique coloring and patterns"
+    ],
+    "health_guarantee": false,
+    "identification_guarantee": true,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100087",
+    "gender": "male",
+    "dob": "06-20-2023",
+    "size": "small",
+    "color": "gray",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": true,
+    "cert_type": "NLA",
+    "microchip": false,
+    "location": "netherlands",
+    "publishedAt": "02-03-2024",
+    "additional_info": [
+      "Purebred Syrian Hamster",
+      "Active and curious",
+      "Needs enrichment and exercise",
+      "Can be territorial"
+    ],
+    "health_guarantee": false,
+    "identification_guarantee": false,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100088",
+    "gender": "female",
+    "dob": "12-28-2022",
+    "size": "medium",
+    "color": "black",
+    "vaccinated": true,
+    "dewormed": false,
+    "cert": false,
+    "cert_type": "N/A",
+    "microchip": true,
+    "location": "japan",
+    "publishedAt": "01-31-2024",
+    "additional_info": [
+      "Rare Sun Conure",
+      "Intelligent and playful",
+      "Requires socialization and training",
+      "Can be loud and vocal"
+    ],
+    "health_guarantee": true,
+    "identification_guarantee": true,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100089",
+    "gender": "male",
+    "dob": "03-08-2023",
+    "size": "small",
+    "color": "white",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": true,
+    "cert_type": "NLA",
+    "microchip": true,
+    "location": "india",
+    "publishedAt": "02-22-2024",
+    "additional_info": [
+      "Mix breed with Budgie and Parakeet",
+      "Active and social",
+      "Enjoyable to watch and listen to",
+      "Need companionship and interaction"
+    ],
+    "health_guarantee": false,
+    "identification_guarantee": true,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100090",
+    "gender": "female",
+    "dob": "10-15-2022",
+    "size": "medium",
+    "color": "brown",
+    "vaccinated": true,
+    "dewormed": false,
+    "cert": false,
+    "cert_type": "N/A",
+    "microchip": false,
+    "location": "brazil",
+    "publishedAt": "02-18-2024",
+    "additional_info": [
+      "Purebred Dutch Rabbit",
+      "Easygoing and calm",
+      "Affectionate and social",
+      "Need space to hop and explore"
+    ],
+    "health_guarantee": true,
+    "identification_guarantee": false,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100091",
+    "gender": "male",
+    "dob": "05-27-2023",
+    "size": "small",
+    "color": "white",
+    "vaccinated": true,
+    "dewormed": true,
+    "cert": true,
+    "cert_type": "NLA",
+    "microchip": true,
+    "location": "china",
+    "publishedAt": "02-10-2024",
+    "additional_info": [
+      "Purebred Betta Fish",
+      "Beautiful and mesmerizing",
+      "Requires specific tank setup and care",
+      "Not suitable for beginners"
+    ],
+    "health_guarantee": false,
+    "identification_guarantee": true,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  },
+  {
+    "sku": "#100092",
+    "gender": "female",
+    "dob": "11-30-2022",
+    "size": "medium",
+    "color": "white",
+    "vaccinated": true,
+    "dewormed": false,
+    "cert": false,
+    "cert_type": "N/A",
+    "microchip": false,
+    "location": "australia",
+    "publishedAt": "02-05-2024",
+    "additional_info": [
+      "Purebred Green Cheek Conure",
+      "Highly social and affectionate",
+      "Talented at mimicking sounds",
+      "Needs plenty of attention and interaction"
+    ],
+    "health_guarantee": true,
+    "identification_guarantee": false,
+    "images": [
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200",
+      "https://placeholder.com/300/200"
+    ],
+    "customers": [
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150",
+      "https://placeholder.com/150/150"
+    ]
+  }
+]

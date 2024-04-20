@@ -1,4 +1,4 @@
-import SecondaryButton from "@/components/atoms/SecondaryButton";
+import SecondaryButton from "@/components/atoms/form-elements/SecondaryButton";
 import BlogPreview from "@/components/common/BlogPreview";
 
 export default function BlogPreviewList({}) {

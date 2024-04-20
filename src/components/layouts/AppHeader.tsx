@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import InputField from "@/components/atoms/InputField";
-import PrimaryButton from "@/components/atoms/PrimaryButton";
+import InputField from "@/components/atoms/form-elements/InputField";
+import PrimaryButton from "@/components/atoms/form-elements/PrimaryButton";
+import CategoryPopover from "@/components/layouts/CategoryPopover";
 
 export default function AppHeader() {
     return (
-        <header className="max-w-e7xl mx-auto flex-between-center py-3 z-50 relative sm:py-[30px] px-2 2xl:px-0 flex-wrap">
+        <header
+            className="max-w-e7xl mx-auto flex-between-center py-3 z-50 relative sm:py-[30px] px-2 2xl:px-0 flex-wrap">
             <div className="flex lg:justify-start justify-between items-center gap-x-12 w-full lg:w-auto">
                 <button type="button" className={"block lg:hidden"}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24"
@@ -27,10 +29,10 @@ export default function AppHeader() {
 
                 </button>
                 <div className={"gap-x-4 xl:gap-x-12 lg:flex justify-start items-center hidden"}>
-                    <Link href={"#"} className="text-dark-blue font-bold">Home</Link>
-                    <Link href={"#"} className="text-dark-blue font-bold">Category</Link>
-                    <Link href={"#"} className="text-dark-blue font-bold">About</Link>
-                    <Link href={"#"} className="text-dark-blue font-bold">Contact</Link>
+                    <Link href={"/"} className="text-dark-blue font-bold">Home</Link>
+                    <CategoryPopover/>
+                    <a target={"_blank"} href={"https://bhaviktrambadiya.netlify.app/"}
+                       className="text-dark-blue font-bold">About</a>
                 </div>
             </div>
             <div className="lg:flex hidden justify-between items-center gap-x-1 xl:gap-x-3.5">
@@ -45,7 +47,6 @@ export default function AppHeader() {
                                 className="w-full outline-none py-3 text-sm focus:ring-0 border-0 focus:border-0"/>
                 </div>
                 <PrimaryButton type={"button"}>Join the community</PrimaryButton>
-                <button type={"button"}>VND</button>
             </div>
         </header>
     )

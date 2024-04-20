@@ -1,4 +1,4 @@
-import SecondaryButton from "@/components/atoms/SecondaryButton";
+import SecondaryButton from "@/components/atoms/form-elements/SecondaryButton";
 import PetPreview from "@/components/common/PetPreview";
 
 export default function RecommendedList({}) {

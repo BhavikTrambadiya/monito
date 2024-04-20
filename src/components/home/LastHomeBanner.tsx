@@ -1,5 +1,5 @@
-import SecondaryButton from "@/components/atoms/SecondaryButton";
-import PrimaryButton from "@/components/atoms/PrimaryButton";
+import SecondaryButton from "@/components/atoms/form-elements/SecondaryButton";
+import PrimaryButton from "@/components/atoms/form-elements/PrimaryButton";
 import Image from "next/image";
 
 export default function LastHomeBanner({}) {
@@ -39,15 +39,15 @@ export default function LastHomeBanner({}) {
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" width="1188" height="386" viewBox="0 0 1188 386" fill="none">
                 <g filter="url(#filter0_d_504_1909)">
-                    <g clip-path="url(#clip0_504_1909)">
+                    <g clipPath="url(#clip0_504_1909)">
                         <rect width="1180" height="378" rx="20" transform="matrix(-1 0 0 1 1184 0)" fill="#FFB775"/>
                         <rect width="782.292" height="635" rx="99" transform="matrix(-0.904604 0.426252 0.426252 0.904604 407.665 -360)" fill="#FCEED5"/>
                         <rect opacity="0.3" width="787.54" height="787.54" rx="99" transform="matrix(-0.880881 0.473338 0.473338 0.880881 1142.51 28.7205)" fill="url(#paint0_linear_504_1909)"/>
                     </g>
                 </g>
                 <defs>
-                    <filter id="filter0_d_504_1909" x="0" y="0" width="1188" height="386" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <filter id="filter0_d_504_1909" x="0" y="0" width="1188" height="386" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                        <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                         <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                         <feOffset dy="4"/>
                         <feGaussianBlur stdDeviation="2"/>
@@ -57,9 +57,9 @@ export default function LastHomeBanner({}) {
                         <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_504_1909" result="shape"/>
                     </filter>
                     <linearGradient id="paint0_linear_504_1909" x1="0" y1="0" x2="958.452" y2="218.934" gradientUnits="userSpaceOnUse">
-                        <stop offset="0.0616933" stop-color="#FCEED5"/>
-                        <stop offset="0.751415" stop-color="#FCEED5"/>
-                        <stop offset="1" stop-color="#FFE7BA"/>
+                        <stop offset="0.0616933" stopColor="#FCEED5"/>
+                        <stop offset="0.751415" stopColor="#FCEED5"/>
+                        <stop offset="1" stopColor="#FFE7BA"/>
                     </linearGradient>
                     <clipPath id="clip0_504_1909">
                         <rect width="1180" height="378" rx="20" transform="matrix(-1 0 0 1 1184 0)" fill="white"/>

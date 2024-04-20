@@ -1,6 +1,6 @@
 import Image from "next/image";
-import SecondaryButton from "@/components/atoms/SecondaryButton";
-import PrimaryButton from "@/components/atoms/PrimaryButton";
+import SecondaryButton from "@/components/atoms/form-elements/SecondaryButton";
+import PrimaryButton from "@/components/atoms/form-elements/PrimaryButton";
 
 export default function MainBanner({}) {
     return (

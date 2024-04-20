@@ -5,7 +5,7 @@ import FilterButton from "@/components/category/FilterButton";
 import Breadcrumb from "@/components/common/Breadcrumb";
 import MainCategoryBanner from "@/components/category/MainCategoryBanner";
 
-export default function Category() {
+export default function Category({params: {slug}}) {
 
     const breadcrumbLinks: { link: string, title: string }[] = [
         {
@@ -13,7 +13,7 @@ export default function Category() {
             title: "Home",
         },
         {
-            link: "/category",
+            link: "/category/" + slug,
             title: "Pet",
         }
     ];
@@ -22,7 +22,7 @@ export default function Category() {
         <main className="flex-between-center min-h-screen flex-col max-w-e7xl mx-auto px-2 2xl:px-0">
             <div className={"w-full"}>
                 <Breadcrumb links={breadcrumbLinks}/>
-                <MainCategoryBanner />
+                <MainCategoryBanner/>
             </div>
             <div className="flex-between-start w-full gap-5">
                 <div className="w-56 lg:w-[280px] h-full shrink-0 flex-start-start flex-col hidden md:block">

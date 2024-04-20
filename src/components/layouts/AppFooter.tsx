@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import PrimaryButton from "@/components/atoms/PrimaryButton";
-import InputField from "@/components/atoms/InputField";
+import PrimaryButton from "@/components/atoms/form-elements/PrimaryButton";
+import InputField from "@/components/atoms/form-elements/InputField";
 
 
 export default function AppFooter() {

@@ -1,5 +1,5 @@
-import PrimaryButton from "@/components/atoms/PrimaryButton";
-import SecondaryButton from "@/components/atoms/SecondaryButton";
+import PrimaryButton from "@/components/atoms/form-elements/PrimaryButton";
+import SecondaryButton from "@/components/atoms/form-elements/SecondaryButton";
 import ProductSlider from "@/components/common/ProductSlider";
 import Breadcrumb from "@/components/common/Breadcrumb";
 import ClientSlider from "@/components/common/ClientSlider";
@@ -8,9 +8,9 @@ import RecommendedList from "@/components/pet/RecommendedList";
 export default function Pet({params}: { params: { slug: string } }) {
     console.log(params.slug);
     const images: string[] = [
-        "https://images.unsplash.com/photo-1689267305146-155a1459752c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80",
-        "https://images.unsplash.com/photo-1689005047173-b43ff68072ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-        "https://images.unsplash.com/photo-1677080946126-99bbc7b19747?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
+        "https://images.unsplash.com/photo-1596278852720-141ba859bbbf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1611610436339-496cfcf1c51f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1596278821705-e83075e264fd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ];
 
     const breadcrumbLinks: { link: string, title: string }[] = [
@@ -29,12 +29,12 @@ export default function Pet({params}: { params: { slug: string } }) {
     ];
 
     const clientImages: string[] = [
-        "https://images.unsplash.com/photo-1689830626827-75039b5ba3fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-        "https://images.unsplash.com/photo-1689913834525-d5796e2a050a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-        "https://images.unsplash.com/photo-1684620862250-287cb4543b46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-        "https://images.unsplash.com/photo-1689613188558-80e320f0aab9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-        "https://images.unsplash.com/photo-1688889716860-c9b94cc3db63?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=691&q=80",
-        "https://images.unsplash.com/photo-1689956533191-b905323bfe76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80",
+        "https://images.unsplash.com/photo-1577175826207-5052ccbf89e8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1532469060546-4eb37b460481?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1511623955313-1e08bc4eaefe?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1618294454352-eb84462415b0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1525983360072-2ebda055ba40?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1554483036-2b1d0486922d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ];
 
 

@@ -1,5 +1,5 @@
-import SecondaryButton from "@/components/atoms/SecondaryButton";
-import PrimaryButton from "@/components/atoms/PrimaryButton";
+import SecondaryButton from "@/components/atoms/form-elements/SecondaryButton";
+import PrimaryButton from "@/components/atoms/form-elements/PrimaryButton";
 import Image from "next/image";
 
 export default function SecondaryBanner({}) {
@@ -38,7 +38,7 @@ export default function SecondaryBanner({}) {
                 </div>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" className={"w-full h-full block lg:hidden"} viewBox="0 0 382 640" fill="none">
-                <g clip-path="url(#clip0_506_1924)">
+                <g clipPath="url(#clip0_506_1924)">
                     <rect width="382" height="640" rx="20" fill="#003459"/>
                     <rect x="41.4932" y="400.72" width="787.54" height="787.54" rx="99" transform="rotate(28.2512 41.4932 400.72)" fill="#002A48"/>
                     <rect x="-79.3745" y="-354" width="605.027" height="635" rx="75" transform="rotate(11.4104 -79.3745 -354)" fill="#FCEED5"/>
